@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+I initialize a repository by the command git init. I have to be in the directory of the folder that I want to become a repository. Then a repository is initialized in that directory. There are no commits yet and no files included in the repository (even if there are files in the directory). I can check the status of the repository by running the command git status.
+I need to do this in order to make a directory a repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+At the moment I am not quite sure about that since I haven't completly understood the function of the staging area. But I think it is valuebale in the sense that I can make different commits of the same repository that have different logical values. Furthermore it is the intermediate area between the working directory and the repository.
