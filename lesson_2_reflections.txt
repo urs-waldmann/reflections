@@ -13,3 +13,12 @@ If I wanto to experiment on new features or implement a new language. Then I can
 
 How do the diagrams help you visualize the branch structure?
 First of all the diagrams help me visualizing which branches I have. In addition I immediately see which commits I can access by git log of any branch. Plus they help me visualizing when (at which commit of the master branch) a new branch started.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is that we have a "new branch" that contains all the commits of the previously seperate two branches. This means that we can checkout all the commits of the two branches that are now merged together. That's why it is clear why we represent it in the way we do. Because the "new branch" has two parent branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pros automatic merging: takes less time
+cons automatic merging: merges wrong things
+pros merging manually: I decide what to merge
+cons merging automatically: takes more time
