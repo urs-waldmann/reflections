@@ -3,7 +3,7 @@ I initialize a repository by the command git init. I have to be in the directory
 I need to do this in order to make a directory a repository.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-At the moment I am not quite sure about that since I haven't completly understood the function of the staging area. But I think it is valuebale in the sense that I can make different commits of the same repository that have different logical values. Furthermore it is the intermediate area between the working directory and the repository.
+At the moment I am not quite sure about that since I haven't completly understood the function of the staging area. But I think it is valuebale in the sense that I can make different commits to the same repository that have different logical purposes. Furthermore it is the intermediate area between the working directory and the repository.
 
 How can you use the staging area to make sure you have one commit per logical change?
 I can add all files of one logical change to the staging area and commit them. Then I can add all files of another logical change to the staging area and commit them, too. And so on...
