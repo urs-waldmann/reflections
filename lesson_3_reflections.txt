@@ -3,3 +3,8 @@ In the case that I want other people to see my repository, comment on it, give f
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 If anybody else made some changes to the remote repository I might want to check the changes before pulling them to my local repository.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+forks: to make a copy of a remote repository on GitHub only, i.e. making a copy of another user's remote repository to my GitHub account (if e.g. I have no permission to make changes to the (original) remote repository of the other user)
+clones: to make a copy of a remote repository to a local repository or to make a copy of a local repository to another local directory
+branches: can be only within one repository (both local or remote), you make a new branch if you want to work an a new feature e.g. without modifying the code of the master branch
