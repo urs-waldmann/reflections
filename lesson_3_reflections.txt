@@ -8,3 +8,6 @@ Describe the differences between forks, clones, and branches. When would you use
 forks: to make a copy of a remote repository on GitHub only, i.e. making a copy of another user's remote repository to my GitHub account (if e.g. I have no permission to make changes to the (original) remote repository of the other user)
 clones: to make a copy of a remote repository to a local repository or to make a copy of a local repository to another local directory
 branches: can be only within one repository (both local or remote), you make a new branch if you want to work an a new feature e.g. without modifying the code of the master branch
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+I can fetch only the changes made on the remote repository on an extra branch so that in case I that I also have changes locally I can view them first and if ok, merge them together. Or I can just pull the remote repository on my local repository. Here the two steps described before are done automatically. But therefore Git needs to know the last known state of the remote by the local repository.
