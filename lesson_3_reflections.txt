@@ -11,3 +11,6 @@ branches: can be only within one repository (both local or remote), you make a n
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 I can fetch only the changes made on the remote repository on an extra branch so that in case I that I also have changes locally I can view them first and if ok, merge them together. Or I can just pull the remote repository on my local repository. Here the two steps described before are done automatically. But therefore Git needs to know the last known state of the remote by the local repository.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I would use SVN. The disadvantage is that I cannot work offline on my project. And I do not really know how to use SVN. After this course I am more expert in Git than SVN.
